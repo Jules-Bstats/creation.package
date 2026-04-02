@@ -1,0 +1,14 @@
+---
+title: "dev package"
+format: html
+---
+
+```{r}
+usethis::use_git_remote(url = "https://github.com/Jules-Bstats/creation.package.git", overwrite = TRUE)
+```
+
+
+```{r}
+usethis::use_r("velo")
+```
+
