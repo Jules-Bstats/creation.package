@@ -88,3 +88,5 @@ plot_distribution_semaine <- function(trajet) {
     aes(x = jour, y = trajets) +
     geom_col()
 }
+
+
